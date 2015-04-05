@@ -43,7 +43,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Recomendamos que use o OrigemWoot, veja um tutorial de como usa-lo. http://origemwoot.weebly.com/ :+1:");
+                    API.sendChat("/me Recomendamos que use o OrigemWoot, veja um tutorial de como usa-lo. http://origem-woot.com/ :+1:");
                 }
             }
         };
@@ -68,7 +68,7 @@
 
     
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: ":v: TurminhaBot :v:",
+        botName: ":v: Olá, Seja bem vindo infeliz e volte sempre arrombado :point_right: :ok_hand::v:",
         language: "portuguese",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
         maximumAfk: 120,
@@ -100,7 +100,7 @@
         motdEnabled: true,
         motdInterval: 3,
         motd: "!roulette",
-        filterChat: false,
+        filterChat: true
         etaRestriction: true,
         welcome: true,
         opLink: null,
